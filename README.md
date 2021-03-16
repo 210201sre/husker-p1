@@ -26,6 +26,8 @@ Developed a grocery store inventory management system that allows the user to ad
 * Obtain net profit
 * Obtain pure sales
 * Obtain business expenses
+* All data is stored in an Amazon RDS
+* Project image was built using Docker and deployed via Kubernetes
 
 To-do list:
 
