@@ -15,7 +15,11 @@ Developed a grocery store inventory management system that allows the user to ad
 * Maven
 * FluentD
 * Grafana
-* Grafana Loki
+* Loki
+* Docker
+* Log4J
+* PostgreSQL
+* Git
 
 ## Features
 
