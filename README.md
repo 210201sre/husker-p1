@@ -38,3 +38,12 @@ To-do list:
 * Add more robust exception handling and data validation
 
 ## Getting started
+
+Begin by cloning the repository into a desired folder
+
+```git clone https://github.com/210201sre/husker-p1.git```
+
+To run application locally, Loki, Grafana and FluentD agents must be started. This can be accomplished using Docker Desktop and the provided docker compose file inside the logging folder.
+
+```cd logging
+   docker-compose -d up```
