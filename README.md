@@ -87,6 +87,7 @@ Example JSON: ```
 #### Get single user
 
 Send GET request to: localhost:8080/data/users/{id}
+
 Where {id} = the user ID of the user you want to get
 
 #### Delete user
@@ -121,6 +122,7 @@ Send GET request to: localhost:8080/data/items
 #### Get single item
 
 Send GET request to: localhost:8080/data/items/{id}
+
 Where {id} = the item ID of the item you want to get
 
 
