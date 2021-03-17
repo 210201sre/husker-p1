@@ -56,6 +56,17 @@ All features of the application are accessible via HTTP requests to a RESTful AP
 
 ### User features
 
+#### Create User
+
+Send POST request with JSON formatted user data to: localhost:8080/data/users
+
+Example: ```
+    {
+        "name": "John Smith",
+        "role": "Customer"
+    }
+    ```
+
 #### Get all users
 
 Send GET request to: localhost:8080/data/users 
