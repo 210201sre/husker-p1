@@ -49,3 +49,9 @@ To run application locally, Loki, Grafana and FluentD agents must be started. Th
 cd logging
 docker-compose -d up
 ```
+
+Once the agents are running, the application can be compiled as a Spring Boot application and ran using Spring Tool Suite 4. 
+
+All features of the application are accessible via HTTP requests to a RESTful API.
+
+### User features
