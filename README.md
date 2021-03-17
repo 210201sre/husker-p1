@@ -56,6 +56,8 @@ All features of the application are accessible via HTTP requests to a RESTful AP
 
 ### User features
 
+Baseline user endpoint: localhost:8080/data/users
+
 #### Create User
 
 Send POST request with JSON formatted user data to: localhost:8080/data/users
@@ -73,7 +75,7 @@ Send GET request to: localhost:8080/data/users
 
 #### Update user
 
-Send PUT request to: localhost:8080/data/users
+Send PUT request with JSON formatted updated user data to: localhost:8080/data/users
 
 Example JSON: ```
     {
@@ -89,9 +91,36 @@ Where {id} = the user ID of the user you want to get
 
 #### Delete user
 
-Send DELETE request to: localhost:8080/data/users
+Send DELETE request with JSON formatted user ID for user to be deleted to: localhost:8080/data/users
 
 Example JSON: ```
     { "userID":5
     }
     ```
+### Item Features
+
+Baseline item endpoint: localhost:8080/data/items
+
+#### Create item
+
+Send POST request with JSON formatted item data to: localhost:8080/data/items
+
+Example JSON: ```
+    {
+        "itemName": "Steak",
+        "itemType": "Meat",
+        "storeBuyPrice": 3.99,
+        "sellPrice": 12.99,
+        "quantity": 6,
+    }
+    ```
+#### Get all items
+
+Send GET request to: localhost:8080/data/items
+
+#### Get single item
+
+Send GET request to: localhost:8080/data/items/{id}
+Where {id} = the item ID of the item you want to get
+
+
