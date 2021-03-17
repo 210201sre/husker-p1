@@ -55,3 +55,7 @@ Once the agents are running, the application can be compiled as a Spring Boot ap
 All features of the application are accessible via HTTP requests to a RESTful API that sends and receives JSON data.
 
 ### User features
+
+#### Get all users
+
+Send GET request to: localhost:8080/data/users 
