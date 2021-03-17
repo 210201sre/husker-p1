@@ -45,5 +45,7 @@ Begin by cloning the repository into a desired folder
 
 To run application locally, Loki, Grafana and FluentD agents must be started. This can be accomplished using Docker Desktop and the provided docker compose file inside the logging folder.
 
-```cd logging
-   docker-compose -d up```
+```
+cd logging
+docker-compose -d up
+```
