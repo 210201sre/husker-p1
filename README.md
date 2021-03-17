@@ -60,7 +60,7 @@ All features of the application are accessible via HTTP requests to a RESTful AP
 
 Send POST request with JSON formatted user data to: localhost:8080/data/users
 
-Example: ```
+Example JSON: ```
     {
         "name": "John Smith",
         "role": "Customer"
@@ -70,3 +70,28 @@ Example: ```
 #### Get all users
 
 Send GET request to: localhost:8080/data/users 
+
+#### Update user
+
+Send PUT request to: localhost:8080/data/users
+
+Example JSON: ```
+    {
+        "userID": 5,
+        "name": "John Doe",
+        "role": "Customer"
+    }
+    ```
+#### Get single user
+
+Send GET request to: localhost:8080/data/users/{id}
+Where {id} = the user ID of the user you want to get
+
+#### Delete user
+
+Send DELETE request to: localhost:8080/data/users
+
+Example JSON: ```
+    { "userID":5
+    }
+    ```
